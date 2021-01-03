@@ -45,7 +45,9 @@ Chapter 2 of /Practical Grammar/
 All Chapter 2 exercises EXCEPT 2.A, 2.B, and 2.C.
 
 * Week 3: Verbs revisited
-*** Readings: Chapter 3 of /Practical Grammar/
+*** Readings
+Chapter 3 of /Practical Grammar/
+
 I found further reading helpful. The relevant sections in /The Chicago Guide/ are Sections 137--183 and 198--209.
 
 *** Exercises
