@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-01-02 Sat 20:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Self-Study English Grammar Syllabus</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Emma Mungall" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Self-Study English Grammar Syllabus</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org311feee">1. What is this?</a></li>
+<li><a href="#orgdaaf265">2. What do you need?</a>
+<ul>
+<li><a href="#org5b09f45">2.1. Time</a></li>
+<li><a href="#orgedc4bcf">2.2. Texts</a>
+<ul>
+<li><a href="#org886937f">2.2.1. Required texts</a></li>
+<li><a href="#orgcd8d3c5">2.2.2. Supporting texts</a></li>
+<li><a href="#orgb2c937f">2.2.3. References</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orge6d1d8b">3. A note on exercises</a></li>
+<li><a href="#org136c8b2">4. Week 1: Parts of speech</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org12bb40e">4.0.1. Readings</a></li>
+<li><a href="#org43025fe">4.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc12cefb">5. Week 2: Sentence structure</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org6a89366">5.0.1. Readings</a></li>
+<li><a href="#org8a61936">5.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9b37497">6. Week 3: Verbs revisited</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org5077971">6.0.1. Readings</a></li>
+<li><a href="#org595681b">6.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org164fa2a">7. Week 4: Subject-verb agreement</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org55e1eea">7.0.1. Readings</a></li>
+<li><a href="#orgb95eb13">7.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org83644b3">8. Week 5: Pronoun-antecedent agreement and pronoun case</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgeb7595e">8.0.1. Readings</a></li>
+<li><a href="#org152cbc1">8.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb66ae40">9. Week 6: Diction and danglers</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgb6563d3">9.0.1. Readings</a></li>
+<li><a href="#orgfb253c9">9.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org657d964">10. Week 7: Punctuation</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orga4900ff">10.0.1. Readings</a></li>
+<li><a href="#org37a6625">10.0.2. Exercises</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcd16f54">11. Week 8: Study and write final exam!</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org311feee" class="outline-2">
+<h2 id="org311feee"><span class="section-number-2">1</span> What is this?</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+When I switched from writing academic manuscripts to editing them, I realized that I needed a more systematic knowledge of English grammar. Specifically, I wanted to take <a href="https://continuing.ryerson.ca/search/publicCourseSearchDetails.do?method=load&amp;courseId=24873">Ryerson University's Copy and Stylistic Editing I</a>, but I scored below 70 on their diagnostic grammar text. If you score below 70, they "highly recommend" taking <a href="https://continuing.ryerson.ca/search/publicCourseSearchDetails.do?method=load&amp;courseId=26171">Practical Grammar and Punctuation</a>. I would have liked to, but the semester had already started and I didn't want to wait another semester, so I decided to see if I could learn the material myself using the course text, <i><a href="https://www.chapters.indigo.ca/en-ca/books/practical-grammar-a-canadian-writers/9780199002306-item.html">Practical Grammar</a></i> by Maxine Ruvinsky, which is designed as a self-study text. I could: taking myself through this course brought me from a far-from-infallible "it sounds right" understanding to an understanding that enabled me to get a grade of A+ in <a href="https://continuing.ryerson.ca/search/publicCourseSearchDetails.do?method=load&amp;courseId=24873">Copy and Stylistic Editing I</a>.
+</p>
+
+<p>
+I wanted to share here what I did, because it worked, and if you find yourself in the same situation maybe this page will save you some time. Doubtless, you will get a more thorough education if you take a class, and of course having a teacher to answer your questions is invaluable. But if you can't afford the fees or need a self-paced approach, you might find this useful.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdaaf265" class="outline-2">
+<h2 id="orgdaaf265"><span class="section-number-2">2</span> What do you need?</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org5b09f45" class="outline-3">
+<h3 id="org5b09f45"><span class="section-number-3">2.1</span> Time</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+I've divided the readings and exercises into seven weeks, with a final exam in the eighth week. You will need a few hours to study and practice each week. I'd say it takes less time than a formal continuing education class, but it's still a fair amount of time.
+</p>
+</div>
+</div>
+<div id="outline-container-orgedc4bcf" class="outline-3">
+<h3 id="orgedc4bcf"><span class="section-number-3">2.2</span> Texts</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org886937f" class="outline-4">
+<h4 id="org886937f"><span class="section-number-4">2.2.1</span> Required texts</h4>
+<div class="outline-text-4" id="text-2-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgc66d389"></a><i><a href="https://www.chapters.indigo.ca/en-ca/books/practical-grammar-a-canadian-writers/9780199002306-item.html">Practical Grammar</a></i> by Maxine Ruvinsky<br />
+<div class="outline-text-5" id="text-2-2-1-1">
+<p>
+The course is structured around the Ruvinsky text (3rd edition). The weeks follow the book chapters, and all of the exercises are drawn from it.
+</p>
+</div>
+</li>
+
+<li><a id="orgbcc1226"></a><i><a href="https://www.chapters.indigo.ca/en-ca/books/grammatically-correct-the-essential-guide/9781582976167-item.html?ikwid=grammatically+correct&amp;ikwsec=Home&amp;ikwidx=0#algoliaQueryId=c5ad2b4b1624a95739a83b1152276954">Grammatically Correct</a></i> by Anne Stilman<br />
+<div class="outline-text-5" id="text-2-2-1-2">
+<p>
+The Stilman book covers some topics in more depth than the Ruvinsky book does. For some topics, I found the explanations more thorough and helpful.
+</p>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgcd8d3c5" class="outline-4">
+<h4 id="orgcd8d3c5"><span class="section-number-4">2.2.2</span> Supporting texts</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+There are other possible candidates for the role of supporting text. <i><a href="https://www.chapters.indigo.ca/en-ca/books/the-joy-of-syntax-a/9780399581069-item.html?ikwid=the+joy+of+syntax&amp;ikwsec=Home&amp;ikwidx=0#algoliaQueryId=8fc810a6d762b173768db65f8d8ac80c">The Joy of Syntax</a></i> by June Casagrande is a bit more light-hearted and less instructional, but I found it useful; I haven't read <i><a href="https://wwnorton.com/books/9780393337150">Clean, Well-Lighted Sentences</a></i> by Janis Bell but have seen it recommended. I list the chapters in <i>Grammatically Correct</i>, but you could easily find the corresponding topics in one of those books (or another) if you felt like it.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb2c937f" class="outline-4">
+<h4 id="orgb2c937f"><span class="section-number-4">2.2.3</span> References</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+For topics that you are having trouble grasping or that you're simply interested in and want to learn more about, I'd suggest a reference text. I used <i>The Oxford Reference Grammar</i> by Sidney Greenbaum, which, bizarrely, I can't find anywhere online now. In Fall 2019 when I was doing this, my library (the Toronto Public Library) had a copy, but now I can't find it! As a substitute, I've listed the equivalent sections of <i><a href="https://www.chapters.indigo.ca/en-ca/books/the-chicago-guide-to-grammar/9780226188850-item.html?ikwid=chicago+guide+garner&amp;ikwsec=Home&amp;ikwidx=0#algoliaQueryId=f8d17d521cdc78fe592c6ff4d24657b5">The Chicago Guide to Grammar, Usage, and Punctuation</a></i> by Bryan Garner, which is available as a fairly cheap ebook as well as in many libraries for the topics that I did further reading on.
+</p>
+
+<p>
+For quick reference, the Purdue OWL pages on <a href="https://owl.purdue.edu/owl/general_writing/grammar/index.html">grammar</a>, <a href="https://owl.purdue.edu/owl/general_writing/punctuation/index.html">punctuation</a>, and <a href="https://owl.purdue.edu/owl/general_writing/mechanics/index.html">related miscellaneous topics</a> are fantastic, and they also have online exercises.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge6d1d8b" class="outline-2">
+<h2 id="orge6d1d8b"><span class="section-number-2">3</span> A note on exercises</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+In general, you should do all of the exercises in the relevant <i>Practical Grammar</i> chapter EXCEPT those I list under exceptions: these will form the final exam, so if you do them you won't be able to test yourself and see how far you've come at the end of the "semester"!
+</p>
+</div>
+</div>
+
+<div id="outline-container-org136c8b2" class="outline-2">
+<h2 id="org136c8b2"><span class="section-number-2">4</span> Week 1: Parts of speech</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org12bb40e" class="outline-4">
+<h4 id="org12bb40e"><span class="section-number-4">4.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-4-0-1">
+<p>
+Chapter 1 of <i>Practical Grammar</i>
+</p>
+
+<p>
+I found I needed further explanation of prepositions, conjunctions, and adverbs. I read about them in <i>The Oxford Reference Grammar</i>, but <i>The Joy of Syntax</i> also has chapters on each of the parts of speech. The relevant sections in <i>The Chicago Guide</i> are Sections 210&#x2013;279.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org43025fe" class="outline-4">
+<h4 id="org43025fe"><span class="section-number-4">4.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-4-0-2">
+<p>
+All Chapter 1 exercises EXCEPT 1.C, 1.D, and 1.E.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc12cefb" class="outline-2">
+<h2 id="orgc12cefb"><span class="section-number-2">5</span> Week 2: Sentence structure</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org6a89366" class="outline-4">
+<h4 id="org6a89366"><span class="section-number-4">5.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-5-0-1">
+<p>
+Chapter 2 of <i>Practical Grammar</i>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8a61936" class="outline-4">
+<h4 id="org8a61936"><span class="section-number-4">5.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-5-0-2">
+<p>
+All Chapter 2 exercises EXCEPT 2.A, 2.B, and 2.C.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9b37497" class="outline-2">
+<h2 id="org9b37497"><span class="section-number-2">6</span> Week 3: Verbs revisited</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org5077971" class="outline-4">
+<h4 id="org5077971"><span class="section-number-4">6.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-6-0-1">
+<p>
+Chapter 3 of <i>Practical Grammar</i>
+</p>
+
+<p>
+I found further reading helpful. The relevant sections in <i>The Chicago Guide</i> are Sections 137&#x2013;183 and 198&#x2013;209.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org595681b" class="outline-4">
+<h4 id="org595681b"><span class="section-number-4">6.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-6-0-2">
+<p>
+All Chapter 3 exercises EXCEPT 3.C, 3.D, and 3.E.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org164fa2a" class="outline-2">
+<h2 id="org164fa2a"><span class="section-number-2">7</span> Week 4: Subject-verb agreement</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org55e1eea" class="outline-4">
+<h4 id="org55e1eea"><span class="section-number-4">7.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-7-0-1">
+<p>
+Chapter 4 of <i>Practical Grammar</i> and "Agreement Between Subject and Verb" in <i>Grammatically Correct</i>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb95eb13" class="outline-4">
+<h4 id="orgb95eb13"><span class="section-number-4">7.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-7-0-2">
+<p>
+All Chapter 4 exercises EXCEPT the final review exercise that begins on p. 81.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org83644b3" class="outline-2">
+<h2 id="org83644b3"><span class="section-number-2">8</span> Week 5: Pronoun-antecedent agreement and pronoun case</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-orgeb7595e" class="outline-4">
+<h4 id="orgeb7595e"><span class="section-number-4">8.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-8-0-1">
+<p>
+Chapter 5 of <i>Practical Grammar</i> and "Referring to the Right Antecedent" and "Agreement Between Pronoun and Antecedent" in <i>Grammatically Correct</i>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org152cbc1" class="outline-4">
+<h4 id="org152cbc1"><span class="section-number-4">8.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-8-0-2">
+<p>
+All Chapter 5 exercises EXCEPT 5.A, 5.B, 5.D, and 5.E.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb66ae40" class="outline-2">
+<h2 id="orgb66ae40"><span class="section-number-2">9</span> Week 6: Diction and danglers</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-orgb6563d3" class="outline-4">
+<h4 id="orgb6563d3"><span class="section-number-4">9.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-9-0-1">
+<p>
+Chapter 6 of <i>Practical Grammar</i> and "Positioning of Modifiers" in <i>Grammatically Correct</i>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfb253c9" class="outline-4">
+<h4 id="orgfb253c9"><span class="section-number-4">9.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-9-0-2">
+<p>
+All Chapter 6 exercises. I didn't use any of them for the final exam.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org657d964" class="outline-2">
+<h2 id="org657d964"><span class="section-number-2">10</span> Week 7: Punctuation</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-orga4900ff" class="outline-4">
+<h4 id="orga4900ff"><span class="section-number-4">10.0.1</span> Readings</h4>
+<div class="outline-text-4" id="text-10-0-1">
+<p>
+Chapter 8 of <i>Practical Grammar</i> and all of Part 2: Punctuation in <i>Grammatically Correct</i> (the 2010 edition; it's the third chapter in the 1997 edition).
+</p>
+</div>
+</div>
+
+<div id="outline-container-org37a6625" class="outline-4">
+<h4 id="org37a6625"><span class="section-number-4">10.0.2</span> Exercises</h4>
+<div class="outline-text-4" id="text-10-0-2">
+<p>
+All Chapter 8 exercises EXCEPT 8.B.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcd16f54" class="outline-2">
+<h2 id="orgcd16f54"><span class="section-number-2">11</span> Week 8: Study and write final exam!</h2>
+<div class="outline-text-2" id="text-11">
+<p>
+The final exam consists of the following exercises:
+1.C
+1.D
+1.E
+2.A
+2.B
+2.C
+3.C
+3.D
+3.E
+Final review exercise in Chapter 4
+5.A
+5.B
+5.D
+5.E
+8.B
+</p>
+
+<p>
+It took me about an hour. If you budget for two, that should be plenty.
+</p>
+
+<p>
+Grade the final exam by awarding one point per question, with half-points for questions that you didn't get perfectly correct.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: January 2021</p>
+<p class="author">Author: Emma Mungall</p>
+<p class="date">Created: 2021-01-02 Sat 20:14</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
