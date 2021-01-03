@@ -1,0 +1,88 @@
+#+Title: Self-Study English Grammar Syllabus
+#+Author: Emma Mungall
+#+Date: January 2021
+
+* What is this?
+When I switched from writing academic manuscripts to editing them, I realized that I needed a more systematic knowledge of English grammar. Specifically, I wanted to take [[https://continuing.ryerson.ca/search/publicCourseSearchDetails.do?method=load&courseId=24873][Ryerson University's Copy and Stylistic Editing I]], but I scored below 70 on their diagnostic grammar text. If you score below 70, they "highly recommend" taking [[https://continuing.ryerson.ca/search/publicCourseSearchDetails.do?method=load&courseId=26171][Practical Grammar and Punctuation]]. I would have liked to, but the semester had already started and I didn't want to wait another semester, so I decided to see if I could learn the material myself using the course text, /[[https://www.chapters.indigo.ca/en-ca/books/practical-grammar-a-canadian-writers/9780199002306-item.html][Practical Grammar]]/ by Maxine Ruvinsky, which is designed as a self-study text. I could: taking myself through this course brought me from a far-from-infallible "it sounds right" understanding to an understanding that enabled me to get a grade of A+ in [[https://continuing.ryerson.ca/search/publicCourseSearchDetails.do?method=load&courseId=24873][Copy and Stylistic Editing I]].
+
+I wanted to share here what I did, because it worked, and if you find yourself in the same situation maybe this page will save you some time. Doubtless, you will get a more thorough education if you take a class, and of course having a teacher to answer your questions is invaluable. But if you can't afford the fees or need a self-paced approach, you might find this useful.
+* What do you need?
+** Time
+I've divided the readings and exercises into seven weeks, with a final exam in the eighth week. You will need a few hours to study and practice each week. I'd say it takes less time than a formal continuing education class, but it's still a fair amount of time.
+** Texts
+*** Required texts
+/[[https://www.chapters.indigo.ca/en-ca/books/practical-grammar-a-canadian-writers/9780199002306-item.html][Practical Grammar]]/ by Maxine Ruvinsky
+The course is structured around the Ruvinsky text (3rd edition). The weeks follow the book chapters, and all of the exercises are drawn from it.
+
+/[[https://www.chapters.indigo.ca/en-ca/books/grammatically-correct-the-essential-guide/9781582976167-item.html?ikwid=grammatically+correct&ikwsec=Home&ikwidx=0#algoliaQueryId=c5ad2b4b1624a95739a83b1152276954][Grammatically Correct]]/ by Anne Stilman
+The Stilman book covers some topics in more depth than the Ruvinsky book does. For some topics, I found the explanations more thorough and helpful.
+
+*** Supporting texts
+ There are other possible candidates for the role of supporting text. /[[https://www.chapters.indigo.ca/en-ca/books/the-joy-of-syntax-a/9780399581069-item.html?ikwid=the+joy+of+syntax&ikwsec=Home&ikwidx=0#algoliaQueryId=8fc810a6d762b173768db65f8d8ac80c][The Joy of Syntax]]/ by June Casagrande is a bit more light-hearted and less instructional, but I found it useful; I haven't read /[[https://www.chapters.indigo.ca/en-ca/home/search/?keywords=Clean%2C%20Well-Lighted%20Sentences%3A%20A%20Guide%20to%20Avoiding%20the%20Most%20Common%20Errors%20in%20Grammar%20and%20Punctuation#internal=1][Clean, Well-Lighted Sentences]]/ by Janis Bell but have seen it recommended. I list the chapters in /Grammatically Correct/, but you could easily find the corresponding topics in one of those books (or another) if you felt like it.
+
+*** References
+For topics that you are having trouble grasping or that you're simply interested in and want to learn more about, I'd suggest a reference text. I used /The Oxford Reference Grammar/ by Sidney Greenbaum, which, bizarrely, I can't find anywhere online now. In Fall 2019 when I was doing this, my library (the Toronto Public Library) had a copy, but now I can't find it! As a substitute, I've listed the equivalent sections of /[[https://www.chapters.indigo.ca/en-ca/books/the-chicago-guide-to-grammar/9780226188850-item.html?ikwid=chicago+guide+garner&ikwsec=Home&ikwidx=0#algoliaQueryId=f8d17d521cdc78fe592c6ff4d24657b5][The Chicago Guide to Grammar, Usage, and Punctuation]]/ by Bryan Garner, which is available as a fairly cheap ebook as well as in many libraries for the topics that I did further reading on.
+
+For quick reference, the Purdue OWL pages on [[https://owl.purdue.edu/owl/general_writing/grammar/index.html][grammar]], [[https://owl.purdue.edu/owl/general_writing/punctuation/index.html][punctuation]], and [[https://owl.purdue.edu/owl/general_writing/mechanics/index.html][related miscellaneous topics]] are fantastic, and they also have online exercises.
+
+* A note on exercises
+In general, you should do all of the exercises in the relevant /Practical Grammar/ chapter EXCEPT those I list under exceptions: these will form the final exam, so if you do them you won't be able to test yourself and see how far you've come at the end of the "semester"!
+
+* Week 1: Parts of Speech
+Readings: Chapter 1 of /Practical Grammar/
+I found I needed further explanation of prepositions, conjunctions, and adverbs. I read about them in /The Oxford Reference Grammar/, but /The Joy of Syntax/ also has chapters on each of the parts of speech. The relevant sections in /The Chicago Guide/ are Sections 210--279.
+
+Exercises: all Chapter 1 exercises EXCEPT 1.C, 1.D, and 1.E.
+
+* Week 2: Sentence Structure
+Readings: Chapter 2 of /Practical Grammar/
+
+Exercises: all Chapter 2 exercises EXCEPT 2.A, 2.B, and 2.C.
+
+* Week 3: Verbs Revisited
+Readings: Chapter 3 of /Practical Grammar/
+I found further reading helpful. The relevant sections in /The Chicago Guide/ are Sections 137--183 and 198--209.
+
+Exercises: all Chapter 3 exercises EXCEPT 3.C, 3.D, and 3.E.
+
+* Week 4: Subject-Verb Agreement
+Readings: Chapter 4 of /Practical Grammar/ and "Agreement Between Subject and Verb" in /Grammatically Correct/.
+
+Excercises: all Chapter 4 exercises EXCEPT the final review exercise that begins on p. 81.
+
+* Week 5: Pronoun-Antecedent Agreement and Pronoun Case
+Readings: Chapter 5 of /Practical Grammar/ and "Referring to the Right Antecedent" and "Agreement Between Pronoun and Antecedent" in /Grammatically Correct/.
+
+Exercises: all Chapter 5 exercises EXCEPT 5.A, 5.B, 5.D, and 5.E.
+
+* Week 6: Diction and Danglers
+Readings: Chapter 6 of /Practical Grammar/ and "Positioning of Modifiers" in /Grammatically Correct/.
+
+Exercises: all Chapter 6 exercises. I didn't use any of them for the final exam.
+
+* Week 7: Punctuation
+Readings: Chapter 8 of /Practical Grammar/ and all of Part 2: Punctuation in /Grammatically Correct/ (the 2010 edition; it's the third chapter in the 1997 edition).
+
+Exercises: all Chapter 8 exercises EXCEPT 8.B.
+
+* Week 8: Study and Take Final Exam!
+The final exam consists of the following exercises:
+1.C
+1.D
+1.E
+2.A
+2.B
+2.C
+3.C
+3.D
+3.E
+Final review exercise in Chapter 4
+5.A
+5.B
+5.D
+5.E
+8.B
+
+It took me about an hour. If you budget for two, that should be plenty.
+
+Grade the final exam by awarding one point per question, with half-points for questions that you didn't get perfectly correct.
